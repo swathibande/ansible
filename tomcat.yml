@@ -9,4 +9,4 @@
       yum: pkg=tomcat state=latest
     
     - name: cloning file from git
-       
+      command: src=C:\Program Files (x86)\Jenkins\workspace dest=/usr/share/tomcat/webapps
